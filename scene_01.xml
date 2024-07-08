@@ -1,0 +1,17 @@
+<RT>
+    <film filename="scene_01.ppm" />
+    <camera look_from="13 2 3" look_at="0 0 0" up="0 1 0" aperture="0.1"/>
+
+    <world>
+
+        <material type="lambertian" color="0.4 0.2 0.1" />
+	<object type="sphere" center="-4 1 0" radius="1" />
+
+	<material type="metal" color="0.7 0.6 0.5" fuzz="0.0" />
+	<object type="sphere" center="4 1 0" radius="1" />
+
+	<material type="dielectric" refrect_idx="1.5" />
+	<object type="sphere" center="0 1 0" radius="1" />
+
+    </world>
+</RT>
